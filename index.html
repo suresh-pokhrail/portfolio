@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from sureshpokhrail.netlify.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 05:32:53 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Suresh Pokhrail | Portfolio</title>
+
+  <meta name="keywords" content="Suresh Pokhrail, BCA, ">
+    <meta name="description" content="Suresh Pokhrail , a software developer">
+    <meta name="author" content="Suresh Pokhrail">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />   
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,700"
+    rel="stylesheet">
+  <style>
+    /* Style buttons */
+    .btn {
+      background-color: DodgerBlue;
+      border: none;
+      color: white;
+      padding: 12px 30px;
+      cursor: pointer;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: RoyalBlue;
+    }
+
+    .boxes {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: white;
+      filter: blur(10px) contrast(18);
+      mix-blend-mode: screen;
+    }
+
+    .box {
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      background-color: #2b2edb !important;
+    }
+
+    .box:nth-child(odd) {
+      animation: spinLeft 2.5s 0.2s linear both infinite;
+    }
+
+    .box:nth-child(even) {
+      animation: spinRight 1s 0.4s linear both infinite;
+    }
+
+    .box:nth-child(2n) {
+      animation: pulse 2s ease-in-out 0.1s infinite;
+    }
+
+    .box:nth-child(4n) {
+      animation-direction: reverse;
+    }
+
+    @keyframes pulse {
+      50% {
+        transform: scale(1.8);
+      }
+
+      70% {
+        transform: scale(0.6);
+      }
+    }
+
+    @keyframes spinLeft {
+      from {
+        transform: rotate(0deg) translate(50px);
+      }
+
+      to {
+        transform: rotate(360deg) translate(50px);
+      }
+    }
+
+    @keyframes spinRight {
+      from {
+        transform: rotate(360deg) translate(50px);
+      }
+
+      to {
+        transform: rotate(0deg) translate(50px);
+      }
+    }
+
+    .no-scroll {
+      overflow: hidden;
+    }
+  </style>
+
+</head>
+
+<body onload="loadfun()" class="no-scroll">
+
+  <div id="loading1">
+    <div class="boxes">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-6 col-xs-12">
+          <nav>
+            <div id="menu-toggle">
+              <div class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+              <div class="cross">
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+            </div>
+            <ul class="main-nav">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about_us">About</a></li>
+              <li><a href="#project_done">Projects</a></li>
+              <li><a href="#contact_me">Contact</a></li>
+            </ul>
+          </nav>
+          <!-- <a href="#" class="menu"><img src="assets/menu.png"></a> -->
+          <div class="hero-text" id="home">
+            <h1><span>Hi, I am</span><br>Suresh Pokhrail</h1>
+            <h3>Full Stack Developer, Website Designer And Penestration Tester</h3>
+            <!-- <a href="#" class="btn btn-lg btn-primary">Know More</a> -->
+            <hr>
+            <ul class="social-links">
+              <h4>Join me Here</h4>
+              <li><a href="https://www.facebook.com/suresh.pokhrail.16121"><img src="assets/fb.png"></a></li>
+              <li><a href="https://www.instagram.com/suresh_pokhrail/?igshid=1irmlfdquvt0l"><img
+                    src="assets/insta.png"></a></li>
+              <li><a href="https://www.linkedin.com/in/suresh-pokhrail-68a363203"><img src="assets/linkdin.png"></a>
+              </li>
+              <!-- <li><a href="#"><img src="assets/github.png"></a></li> -->
+
+            </ul>
+            <!-- href="assets\suresh_pokhrail_resume_2023.pdf"  target="_blank"-->
+            <a href="assets/suresh_pokhrail_resume_2023.pdf" data-text="Download CV" style="vertical-align: middle;">
+              <button class="btn"><i class="fa fa-download"></i>Click Here For Resume</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="case-study" style="margin-bottom: 50px;" id="about_us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- <h4 class="sub-heading">Exclusively</h4> -->
+          <div class="col-md-4">
+            <div class="right-box-pro wow fadeIn" style="margin-top: 20px;">
+              <img src="assets/about_me.jpg" alt="" class="img">
+            </div><!-- end media -->
+          </div><!-- end col -->
+          <div class="col-md-8">
+
+            <h1 class="heading purple"><span class="purple">About Me</span></h1>
+            <!-- Swiper -->
+            <div class="swiper-container client-swiper">
+              <p class="text-justify">
+                My name is <b>Suresh Pokhrail</b>, and I hail from the state of Uttrakhand. I come from a Hindu Brahmin
+                family.
+              </p>
+              <p class="text-justify">I am proficient as well as a capable and confident person. I have learned to be
+                very hard-working as well as passionate about my career. I am also passionate about learn new things.
+              </p>
+              <p class="text-justify">
+                I have completed my intermediate education
+                at <b>Shri Guru Ram Rai Public School, Bindal, Dehradun</b>.
+                I also complete my graduation in <b>BCA</b> from <b>Shri Guru Ram Rai University, Dehradun</b>.
+              </p>
+              <p class="text-justify">
+                Currently I am working as full-stack Developer at <a href="www.arsalsoftware.html"><strong>Arsal Software
+                    Solution</strong></a>.
+              </p>
+              <p class="text-justify"> I enjoy writing Poems, Shayeri, creating art patterns, playing musical
+                instruments like harmonium and Voilin.<br>
+                I wrote a song <a href="https://youtu.be/qU4OOrDA8H8"><strong>'ISHQ MERA'</strong></a>, must watch and
+                do comment also.<br>
+                I also love to play Football, Kabaddi, Badminton, Carrom, etc.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-study">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="heading purple"><span class="purple">Technology</span> Known</h1>
+          <h5 class="sub-heading" style="margin-top: 20px;">An expert is someone who knows some of the worst mistakes
+            that can be made in his subject, and how to avoid them.</h5>
+          <!-- Swiper -->
+          <div class="swiper-container client-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide client-box">
+                <img src="assets/experties/html5.png" class="client-logo">
+                <h3 class="text-left title">HTML</h3>
+                <p class="text-left tag">Standard for HyperText Markup Language for documents designed to be displayed
+                  structure of web content in a web browser.</p>
+              </div>
+              <div class="swiper-slide client-box">
+                <img src="assets/experties/css.png" class="client-logo">
+                <h3 class="text-left title">CSS</h3>
+                <p class="text-left tag">Cascading Style Sheets is a language used for describing the presentation of a
+                  document written in a HTML.</p>
+              </div>
+              <div class="swiper-slide client-box">
+                <img src="assets/experties/bootstrap.png" class="client-logo">
+                <h3 class="text-left title">BOOTSTRAP</h3>
+                <p class="text-left tag">Bootstrap is an HTML, CSS and JS library that focuses on simplifying the
+                  development of informative web pages.</p>
+              </div>
+              <div class="swiper-slide client-box">
+                <img src="assets/experties/tomcat.png" class="client-logo">
+                <h3 class="text-left title">APACHE TOMCAT</h3>
+                <p class="text-left tag">Apache Tomcat is a Java web application server implementation of the Jakarta
+                  Servlet, Jakarta Expression Language, and WebSocket technologies</p>
+              </div>
+              <div class="swiper-slide client-box">
+                <img src="assets/experties/xampp.png" class="client-logo">
+                <h3 class="text-left title">XAMPP</h3>
+                <p class="text-left tag">XAMPP is an abbreviation where X stands for Cross-Platform, A stands for
+                  Apache, M stands for MYSQL, and the Ps stand for PHP and Perl. </p>
+              </div>
+              <div class="swiper-slide client-box">
+                <img src="assets/experties/java.png" class="client-logo">
+                <h3 class="text-left title">JAVA</h3>
+                <p class="text-left tag">Java is a popular programming language. Java is used to develop mobile apps,
+                  web apps, desktop apps, games and much more</p>
+              </div>
+              <div class="swiper-slide client-box">
+                <img src="assets/experties/c%2b%2b.png" class="client-logo">
+                <h3 class="text-left title">C++</h3>
+                <p class="text-left tag">C++ is a most popular programming language which is used to create
+                  high-performance applications and software like OS, Games, etc.</p>
+              </div>
+              <div class="swiper-slide client-box">
+                <img src="assets/experties/php.png" class="client-logo">
+                <h3 class="text-left title">PHP</h3>
+                <p class="text-left tag">PHP is a popular general-purpose scripting language that powers everything from
+                  your blog to the most popular websites in the world.</p>
+              </div>
+              <div class="swiper-slide client-box">
+                <img src="assets/experties/python.png" class="client-logo">
+                <h3 class="text-left title">PYTHON</h3>
+                <p class="text-left tag">Python is a high-level programming language. Its design philosophy emphasizes
+                  code readability with the use of significant indentation.</p>
+              </div>
+              <div class="swiper-slide client-box">
+                <img src="assets/experties/mysql.png" class="client-logo">
+                <h3 class="text-left title">MySQL</h3>
+                <p class="text-left tag">MySQL is a Relational Database Management System that enables users to store,
+                  manage, and retrieve structured data efficiently.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>  
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonial" id="project_done">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="heading pink"><span class="pink">Projects</span></h1>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Swiper -->
+          <div class="swiper-container testimonial-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide testimonial-box blue">
+                <h1>Website</h1>
+                <p class="text-justify">When I was in 10th grade, I designed a normal website for a school IT project
+                  using only HTML and CSS.</p>
+              </div>
+              <div class="swiper-slide testimonial-box yellow">
+                <h1>Hotel Management</h1>
+                <p class="text-justify">I have worked on a project on hotel management.
+                  in C++ during my intermediate, which is capable of checking room availability, check-in,
+                  Check-Out, Payment (only for tracking).
+                </p>
+              </div>
+              <div class="swiper-slide testimonial-box purple">
+                <h1>Ludo</h1>
+                <p class="text-justify">
+                  I developed a Ludo game with C-graphics after 12th grade.
+                  First, I learned C-graphics from sketching a Taj Mahal portrait online.
+                  Then, I used my skills and graphics to develop a Ludo game.
+                </p>
+              </div>
+              <div class="swiper-slide testimonial-box pink">
+                <h1>Bank Application</h1>
+                <p class="text-justify">I took a full-stack course during my final semester of college. We learned
+                  cross-platform programming using Java as a server,Apache Tomcat as a server, MySQL as a database, and
+                  HTML, CSS, and Javascript as frontend technology.<br>
+                  Currently, I am developing the same project using frameworks like Spring Boot and Angular.
+                </p>
+              </div>
+              <div class="swiper-slide testimonial-box yellow">
+                <h1>Live Projects</h1>
+                <p class="text-justify">Now, I am working with Arsal Software, which deals with school ERP cloud-based
+                  software. Here, I have developed some projects and also integrated other technology with our software.
+                </p>
+              </div>
+              <div class="swiper-slide testimonial-box purple">
+                <h1>Dynamic websites</h1>
+                <p class="text-justify">I also developed some websites for company, Arsal Software, using PHP and
+                  XAMPP servers, and I also manage websites and their databases.
+                </p>
+              </div>
+              <div class="swiper-slide testimonial-box blue">
+                <h1>Penetration Testing</h1>
+                <p class="text-justify">I also do some penetration testing of school ERP software to remove bugs and
+                  vulnerabilities.</p>
+              </div>
+              <div class="swiper-slide testimonial-box pink">
+                <h1>E-Commerce Application</h1>
+                <p class="text-justify">I also developed e-commerce applications using frameworks like Spring Boot and
+                  Angular. Where I integrate payment gateway for online payment and third-party login panel.
+                </p>
+              </div>
+              <div class="swiper-slide testimonial-box yellow">
+                <h1>Ethical Hacking</h1>
+                <p class="text-justify">I also learned the basics of ethical hacking from Udemy.
+                </p>
+              </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Statistics -->
+  <!-- <section class="stats">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center stat-box">
+          <h1 class="purple"><span class="counter">3.2</span>k</h1>
+          <h3>Hours</h3>
+        </div>
+        <div class="col-md-4 text-center stat-box">
+          <h1 class="blue counter">217</h1>
+          <h3>Projects</h3>
+        </div>
+        <div class="col-md-4 text-center stat-box">
+          <h1 class="pink"><span class="counter">18.3</span>k</h1>
+          <h3>Cups of Coffee</h3>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact Banner -->
+  <section class="contact-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1 style="border-bottom:1px solid white ;">One Of My Poems</h1>
+        </div>
+        <div class="col-md-3 text-center" style="font-size: small;">
+          <p>
+            Ek hi muskaan pe,<br>
+            Hazaroo dafa fasa hoon.<br>
+            Inkarr hua hoon har waqt,<br>
+            Fir bhi izhaar kar raha hoon.<br>
+            Roya toh nhi kabhi, par,<br>
+            kismat pe khoob hasa hoon.<br>
+            kyu ki, <br>
+            ek hi pe fidaa hoon.<br>
+          </p>
+        </div>
+        <div class="col-md-3 text-center" style="font-size: small;">
+          <p>
+            Julfo me bhi alag si uljhan hai uski,<br>
+            Bas un uljhano me uljhana chahata hoon.<br>
+            Ek alag hi nasha hai uski khoobsurati ka bhi,<br>
+            Bas uss nashe me kho jana chahata hoon.<br>
+            Na jane kya hai un ankhon me,<br>
+            Bas unhe dekhne ko betaab hoon.<br>
+          </p>
+        </div>
+        <div class="col-md-3 text-center" style="font-size: small;">
+          <p>
+            Anjaani si lagti hai duniya,<br>
+            Bas usi me duniya dekhta hoon.<br>
+            Khud se bhi, koi naata nhi mera,<br>
+            Bas usse hi naata jodna chahta hoon.<br>
+            Ek dafaa nhi,<br>
+            Har dafaa uska hona chahata hoon.<br>
+          </p>
+        </div>
+        <div class="col-md-3 text-center" style="font-size: small;">
+          <p>
+            Waise toh bohat nakhrili hai woh,<br>
+            Har nakhre ko pura karna chahta hoon.<br>
+            uski ek muskurahat par, <br>
+            baar baar fisalna chahata hoon.<br>
+            jitna bhi pal miljaye mujhe,<br>
+            Bas uska rehna chahata hoon.<br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container-fluid" id="contact_me">
+      <div class="row footer">
+        <div class="col-md-4 text-center">
+          <h1>SURESH<br><span>POKHRAIL</span></h1>
+
+        </div>
+        <div class="col-md-6 text-center">
+          <!-- Contact -->
+          <div class="section-title text-left" style="color:#ffff;">
+            <h3>Contact</h3>
+            <ul class="contact_ul">
+              <li><strong>Location</strong>: Dehradun, Uttrakhand.</li>
+              <li><strong>Phone No</strong>:<a href="tel:+917500065026"> +91 7500065026</a></li>
+              <li><strong>Email ID</strong>: <a href="mailto:pokhrailsuresh5@gmail.com">pokhrailsuresh5@gmail.com</a>
+              </li>
+            </ul>
+
+            <ul class="social-links" style="margin-top: 20px;">
+              <li><a href="https://www.facebook.com/suresh.pokhrail.16121"><img src="assets/fb.png"></a></li>
+              <li><a href="https://www.instagram.com/suresh_pokhrail/?igshid=1irmlfdquvt0l"><img
+                    src="assets/insta.png"></a></li>
+              <li><a href="https://www.linkedin.com/in/suresh-pokhrail-68a363203"><img src="assets/linkdin.png"></a>
+              </li>
+              <!-- <li><a href="#"><img src="assets/github.png"></a></li> -->
+            </ul>
+            <a href="assets/suresh_pokhrail_resume_2023.pdf" data-text="Download CV"
+              style="vertical-align: middle;margin-top: 20px;">
+              <button class="btn"><i class="fa fa-download"></i>Click Here For Resume</button></a>
+          </div><!-- section-title -->
+
+        </div><!-- end col-md-6  -->
+      </div> <!-- End row -->
+
+      <div class="row sub-footer">
+        <div class="col-md-12 text-center">
+          <p class="footer-company-name">All Rights Reserved. &copy;
+            <script>document.write(new Date().getFullYear());</script>
+            Design By :
+            <a href="javascript:;">Suresh</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Some Javascript -->
+  <script src="js/jquery-2.1.1.js"></script>
+  <script src="js/swiper.jquery.min.js"></script>
+  <!-- Initialize Client Swiper -->
+  <script>
+    var swiper1 = new Swiper('.client-swiper', {
+      slidesPerView: 3,
+      speed:5000,
+      paginationClickable: true,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      spaceBetween: 30,
+      autoplay: {
+        delay: 10000, stopOnLastSlide: true,
+      },
+      // Responsive breakpoints
+      breakpoints: {
+        // when window width is <= 320px
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        // when window width is <= 480px
+        480: {
+          slidesPerView: 1,
+          spaceBetween: 20
+        },
+        // when window width is <= 640px
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 30
+        }
+      }
+    });
+    // Initialize Testimonial Swiper
+    var swiper2 = new Swiper('.testimonial-swiper', {
+      speed:5000,
+      slidesPerView: 3,
+      pagination: '.swiper-pagination',
+      paginationClickable: true,
+      spaceBetween: 30,
+      grabCursor: true,
+      freeMode: true,
+      autoplay: {
+        delay: 10000,
+        stopOnLastSlide: true,
+      },
+      breakpoints: {
+        // when window width is <= 320px
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        // when window width is <= 480px
+        480: {
+          slidesPerView: 1,
+          spaceBetween: 10
+        },
+        // when window width is <= 640px
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 10
+        }
+      }
+    });
+  </script>
+  <script src="../cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script>
+    // Counterup
+    $('.counter').counterUp({
+      time: 1000
+    });
+
+    // Main Navigation
+    $('#menu-toggle').click(function () {
+      $(this).toggleClass('open'),
+        $('.main-nav').toggleClass('show-it');
+    })
+
+    var load = document.getElementById("loading1");
+    function loadfun() {
+      setTimeout(() => {
+        load.style.display = "none";
+        document.body.classList.remove('no-scroll');
+      }, 3000);
+    }
+
+  </script>
+</body>
+
+
+<!-- Mirrored from sureshpokhrail.netlify.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 05:33:19 GMT -->
+</html>
